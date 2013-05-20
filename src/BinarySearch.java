@@ -39,10 +39,11 @@ public class BinarySearch {
         }
         return -1;
     }
-
+    
     public static void main(String[] args) {
+    	StdOut.println(args[0]);
         int[] whitelist = In.readInts(args[0]);
-
+        
         Arrays.sort(whitelist);
 
         // read key; print if not in whitelist
